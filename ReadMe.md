@@ -59,13 +59,6 @@ pip install pandas numpy matplotlib pillow scikit-learn tqdm
 7. **消融实验**（第8格）：比较不同模态的效果
 8. **主执行流程**（第9格）：运行完整实验
 
-### 3. 运行修复版本（推荐）
-如果原代码运行有问题，可以直接运行第九格中的 **修复版完整实验**，它包含：
-- 自动错误处理
-- 模型加载的fallback机制
-- 小规模数据测试模式
-- 完整的训练验证循环
-
 ## 模型架构
 
 ### 特征提取器
@@ -96,7 +89,7 @@ pip install pandas numpy matplotlib pillow scikit-learn tqdm
 - 多模态融合准确率：XX.XX%
 - 多模态相对提升：+X.XX%
 
-### 训练日志
+### 训练日志（形如）
 ```
 Epoch 1/10
 训练集 - Loss: 1.0234, Acc: 45.67%
